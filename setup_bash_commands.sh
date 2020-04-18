@@ -1,8 +1,6 @@
 
 SHELL_COMMANDS_DIR=~/.shell-commands
 
-# mkdir -p $SHELL_COMMANDS_DIR
-
 LOG_FILE=~/.shell-commands-log
 
 echo "[$(date +'%Y-%m-%dT%H:%M:%S')] [START] setup_bash_commands" >> $LOG_FILE
