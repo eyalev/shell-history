@@ -8,7 +8,7 @@ LOG_FILE=~/.shell-commands-log
 echo "[$(date +'%Y-%m-%dT%H:%M:%S')] [START] setup_bash_commands" >> $LOG_FILE
 echo "[$(date +'%Y-%m-%dT%H:%M:%S')] [START] PWD: ${PWD}" >> $LOG_FILE
 
-git clone git@github.com:eyalev/shell-history.git $SHELL_COMMANDS_DIR
+git clone https://github.com/eyalev/shell-history.git $SHELL_COMMANDS_DIR
 
 touch ~/.bash_history
 
