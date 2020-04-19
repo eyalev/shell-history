@@ -8,3 +8,4 @@ exec $SHELL
 c='list bash bindings' bind -X
 c='bash version' bash --version | head -1 | cut -d ' ' -f 4
 less ~/.bashrc
+vim ~/.gitconfig
